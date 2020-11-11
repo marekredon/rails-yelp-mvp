@@ -4,5 +4,8 @@
   <td><%= restaurant.name %></td>
   <td><%= restaurant.address %></td>
   <td><%= restaurant.category %></td>
+  <td><%= link_to "click here", restaurant_path(restaurant) %></td>
 <//ul>
 <% end %>
+
+<%= link_to 'New Restaurant', new_restaurant_path %>
